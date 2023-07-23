@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Walt Disney World</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="shortcut icon" href="../resources/Logos/dBlanca2.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="grids">
+    <nav class="navbar navbar-expand-lg" style="background-color: #1c468e;" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img class="logo-white"
+            src="../resources/Logos/Walt-Disney-World-Logo-White.png" alt="walt-disney-world"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/entradas.html">Entradas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../pages/noticias.html">Noticias</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="../pages/parques.html" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Parques
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Magic Kingdom</a></li>
+                <li><a class="dropdown-item" href="#">Epcot</a></li>
+                <li><a class="dropdown-item" href="#">Hollywood Studios</a></li>
+                <li><a class="dropdown-item" href="#">Animal Kingdom</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../pages/hoteles.html">Hoteles</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="div_mdw">
+      <img class="mdw-logo" src="../resources/Logos/my-disney-experience-logo2.png" alt="mwd-logo">
+      <h4>Creá tu cuenta</h4>
+      <form class="row g-3 form-p">
+        <div class="col-md-4">
+          <label for="validationDefault01" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="validationDefault01" value="Nombre" required>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefault02" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="validationDefault02" value="Apellido" required>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefaultUsername" class="form-label">Mail</label>
+          <div class="input-group">
+            <span class="input-group-text" id="inputGroupPrepend2">@</span>
+            <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2"
+              required>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault03" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="validationDefault03" value="Ciudad" required>
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault04" class="form-label">País</label>
+          <select class="form-select" id="validationDefault04" required>
+            <option selected disabled value="">Choose...</option>
+            <option> Antigua y Barbuda</option>
+            <option> Argentina</option>
+            <option> Bahamas</option>
+            <option> Barbados</option>
+            <option> Belice</option>
+            <option> Bolivia</option>
+            <option> Brasil</option>
+            <option> Canadá</option>
+            <option> Chile</option>
+            <option> Colombia</option>
+            <option> Costa Rica</option>
+            <option> Cuba</option>
+            <option> Dominica</option>
+            <option> Ecuador</option>
+            <option> El Salvador</option>
+            <option> Estados Unidos</option>
+            <option> Granada</option>
+            <option> Guatemala</option>
+            <option> Guyana</option>
+            <option> Haití</option>
+            <option> Honduras</option>
+            <option> Jamaica</option>
+            <option> México</option>
+            <option> Nicaragua</option>
+            <option> Panamá</option>
+            <option> Paraguay</option>
+            <option> Perú</option>
+            <option> República Dominicana</option>
+            <option> San Cristóbal y Nieves</option>
+            <option> Santa Lucía</option>
+            <option> San Vicente y las Granadinas</option>
+            <option> Surinam</option>
+            <option> Trinidad y Tobago</option>
+            <option> Uruguay</option>
+            <option> Venezuela</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <div class="col-auto">
+            <label for="inputPassword6" class="col-form-label">Password</label>
+          </div>
+          <div class="col-auto">
+            <input type="password" id="inputPassword6" class="form-control" aria-labelledby="passwordHelpInline">
+          </div>
+          <div class="col-auto">
+            <span id="passwordHelpInline" class="form-text help-text">
+              Debe contener entre 8 y 10 caracteres.
+            </span>
+          </div>
+        </div>
+    </div>
+    <div class="col-12">
+      <div class="form-check form-p">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+        <label class="form-check-label" for="invalidCheck2">
+          Estoy de acuerdo con términos y condiciones.
+        </label>
+      </div>
+    </div>
+    <div class="col-12 form-p">
+      <button class="btn btn-primary" type="submit">Submit form</button>
+    </div>
+    </form>
+  </div>
+  <div class="only-o">
+    <p>o</p>
+  </div>
+  <h4 class="ingreso-h4">Ingresá</h4>
+  <div class="form-ingreso">
+    <div class="form-floating mb-3 form-label">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput">Email</label>
+    </div>
+    <div class="form-floating form-label">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+      <label for="floatingPassword">Contraseña</label>
+    </div>
+    <div>
+      <button type="button" class="btn btn-primary">Ingresar</button>
+    </div>
+  </div>
+  
+  <footer class="footer">
+    <div class="footer_div">
+      <ul class="footer_ul-parques">
+        <a class="footer_list" href="../pages/parques.html">
+          <h5>Parques</h5>
+        </a>
+        <li class="footer-li-mq"><a class="footer_list" href="../pages/parques.html">Magic Kingdom</a></li>
+        <li class="footer-li-mq"><a class="footer_list" href="../pages/parques.html">Epcot</a></li>
+        <li class="footer-li-mq"><a class="footer_list" href="../pages/parques.html">Hollywood Studios</a></li>
+        <li class="footer-li-mq"><a class="footer_list" href="../pages/parques.html">Animal Kingdom</a></li>
+      </ul>
+    </div>
+    <div class="footer_div">
+      <ul class="footer_ul-parques">
+        <a class="footer_list" href="../pages/entradas.html">
+          <h5>Visitá los parques</h5>
+        </a>
+        <li class="footer-li-mq"><a class="footer_list" href="../pages/entradas.html">Comprá tus entradas</a></li>
+        <li class="footer-li-mq"><a class="footer_list" href="../pages/planes.html">Planes de comida</a></li>
+        <li class="footer-li-mq"><a class="footer_list" href="../pages/parques.html">Hoteles</a></li>
+      </ul>
+    </div>
+    <div class="footer_div">
+      <ul class="footer_ul-parques">
+        <a class="footer_list" href="../pages/noticias.html">
+          <h5>Noticias</h5>
+        </a>
+      </ul>
+    </div>
+    <div class="footer_div">
+      <ul class="footer_ul-parques">
+        <a class="footer_list" href="../pages/my-disney-world.html">
+          <h5>Cuenta</h5>
+        </a>
+        <li class="footer-li-mq"><a class="footer_list" href="../pages/my-disney-world.html">Creá tu cuenta</a></li>
+        <li class="footer-li-mq"><a class="footer_list" href="../pages/my-disney-world.html">Ingresá a mydisneyworld</a></li>
+      </ul>
+    </div>
+    <div class="footer_div">
+      <h5 class="h5-redes">Disney Redes</h5>
+      <div class="redes-logos">
+        <div><a href="https://www.instagram.com/disney/"><img class="footer_rrss"
+              src="../resources/Logos/instagram-logo.png" alt="ig-logo"></a></div>
+        <div><a href="https://www.facebook.com/Disney/?locale=es_LA"><img class="footer_rrss"
+              src="../resources/Logos/facebook-logo.png" alt="fb-logo"></a></div>
+        <div><a href="https://www.disneyplus.com/es-ar"><img class="footer_rrss"
+              src="../resources/Logos/disney+-logo.png" alt="d+-logo"></a></div>
+        <div><a href="https://www.disneylatino.com/"><img class="footer_rrss" src="../resources/Logos/disney-la.png"
+              alt="dla-logo"></a></div>
+      </div>
+    </div>
+    <div class="footer_legales">
+      <p>© Disney, Todos los Derechos Reservados. Disney Vacations, LLC PO Box 10250, Lake Buena Vista, FL 32830-0250
+        | 81-2564985. ContactUs@DisneyVacationsLLC.com - (011) 5354-8119
+        Se aplicarán cargos por llamadas internacionales cuando llames a Disney desde fuera de los Estados Unidos.</p>
+    </div>
+  </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
