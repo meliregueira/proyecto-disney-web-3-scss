@@ -1,0 +1,30 @@
+@media (max-width: 421px){
+    .cardpk{
+        width: 95%;
+    }
+    
+    .map-mk{
+        max-width: 90%;
+    }
+
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        justify-content: space-evenly
+    }
+
+    .footer_div{
+    width: fit-content;
+    }
+
+    .footer-li-mq{
+        display: none;
+    }
+
+    .h5-redes{
+        display: none;
+    }
+
+
+}

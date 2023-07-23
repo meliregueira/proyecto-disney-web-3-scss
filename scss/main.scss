@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: disney-font;
+}
+@font-face {
+    font-family: disney-font;
+    src: url(../fonts/alte_haas_grotesk/AlteHaasGroteskRegular.ttf);
+}
+
+@import "./utilities/entradas";
+@import "./utilities/noticias";
+@import "./utilities/my-disney-world";
+@import "./utilities/hoteles";
+@import "./utilities/parques";
+@import "./utilities/footer";
+@import "./utilities/mediaquerys";
+
+.carousel-caption{
+    font-weight: bold;
+    font-size: medium;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-input{
+    margin: 5px;
+}
+
+.form-btn{
+    max-width: 150px;
+}
+
+.form-h5{
+    margin: 10px;
+}

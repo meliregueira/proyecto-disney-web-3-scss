@@ -1,0 +1,74 @@
+.div-parques{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-mk{
+    width: 100%;
+}
+
+.mk-pk{
+    max-width: 25%;
+}
+
+.map-mk{
+    padding: 1%;
+}
+
+.cardpk{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 1%;
+    padding: 1%;
+    justify-content: space-between;
+    width: 70%;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.pkmk{
+    background-color: rgba(76, 193, 201, 0.723);
+}
+
+.top-banner{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.h1-mk{
+    margin-top: 2%;
+
+}
+
+.btn-pk-tk{
+    border: solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.btn-pk-tk:hover{
+    border: solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.h1-ak{
+    margin-top: 2%;
+}
+
+.pkak{
+    background-color: rgba(48, 134, 81, 0.723);
+}

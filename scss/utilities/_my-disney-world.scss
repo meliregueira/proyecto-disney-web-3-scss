@@ -1,0 +1,51 @@
+.div_mdw{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 2%;
+}
+
+.ingreso-h4{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.form-ingreso{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    margin: 2%;
+}
+
+.form-label{
+    width: 20vw;
+}
+
+.only-o{
+    display: flex;
+    justify-content: center;
+}
+
+.col-md-3{
+    display: flex;
+    flex-direction: column;
+}
+
+.help-text{
+    font-size: x-small;
+}
+
+.mdw-logo{
+    width: 15vw;
+}
+
+.form-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

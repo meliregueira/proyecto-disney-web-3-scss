@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: disney-font; }
+
+@font-face {
+  font-family: disney-font;
+  src: url(../fonts/alte_haas_grotesk/AlteHaasGroteskRegular.ttf); }
+
+.estructura {
+  display: flex;
+  flex-wrap: nowrap; }
+
+.aside-entradas1 {
+  margin-left: 2%;
+  margin-top: 2%;
+  font-size: medium;
+  width: 15%;
+  text-align: center;
+  font-weight: bold; }
+
+.aside-entradas2 {
+  margin: 2%;
+  font-size: small;
+  width: 20%; }
+
+.img-top {
+  grid-area: top;
+  width: 100%; }
+
+.mk-ariel {
+  width: 100%; }
+
+.ayuda-entradas {
+  margin-top: 20px;
+  font-weight: bold; }
+
+.entradas_descripcion {
+  width: 65%;
+  margin: 2%; }
+
+.compra-descripcion-mk {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3%;
+  background-color: #afe0ff; }
+
+.compra-descripcion-ep {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3%;
+  background-color: rgba(131, 14, 81, 0.408); }
+
+.compra-descripcion-hs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3%;
+  color: white;
+  background-color: rgba(167, 18, 18, 0.87); }
+
+.img-compra {
+  height: 200px; }
+
+.h6-compra {
+  width: 100px; }
+
+.p-compra {
+  width: 200px; }
+
+.carousel-noticias {
+  margin-top: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw; }
+
+#carouselExampleDark {
+  margin-top: 1%; }
+
+.car-noti {
+  width: 100vw; }
+
+.tickets-disney {
+  width: 100vw; }
+
+.col-sm-8 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+
+.col-sm-4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+
+.row-n {
+  background-color: rgba(230, 230, 230, 0.7);
+  margin-top: 7px;
+  border: dotted 1px;
+  border-color: gray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+
+.col-sm {
+  height: 5%; }
+
+.imgs-noticias {
+  max-height: 15vw; }
+
+.img-noti1 {
+  width: 50vw; }
+
+.h-noti {
+  font-weight: bold; }
+
+.div_mdw {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 2%; }
+
+.ingreso-h4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%; }
+
+.form-ingreso {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+  margin: 2%; }
+
+.form-label {
+  width: 20vw; }
+
+.only-o {
+  display: flex;
+  justify-content: center; }
+
+.col-md-3 {
+  display: flex;
+  flex-direction: column; }
+
+.help-text {
+  font-size: x-small; }
+
+.mdw-logo {
+  width: 15vw; }
+
+.form-p {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.div-hoteles {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw; }
+
+.card {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  margin-top: 1%;
+  margin-right: 5%; }
+
+.h2-hoteles {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%; }
+
+.a-card {
+  color: black;
+  text-decoration: none; }
+
+.a-card:hover {
+  font-weight: bold; }
+
+.img-card-hoteles {
+  width: 300px; }
+
+.div-parques {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.img-mk {
+  width: 100%; }
+
+.mk-pk {
+  max-width: 25%; }
+
+.map-mk {
+  padding: 1%; }
+
+.cardpk {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1%;
+  padding: 1%;
+  justify-content: space-between;
+  width: 70%;
+  border-radius: 20px;
+  color: white; }
+
+.pkmk {
+  background-color: rgba(76, 193, 201, 0.723); }
+
+.top-banner {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.h1-mk {
+  margin-top: 2%; }
+
+.btn-pk-tk {
+  border: solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  font-size: large;
+  font-weight: bold; }
+
+.btn-pk-tk:hover {
+  border: solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  font-size: larger;
+  font-weight: bold; }
+
+.h1-ak {
+  margin-top: 2%; }
+
+.pkak {
+  background-color: rgba(48, 134, 81, 0.723); }
+
+.footer {
+  grid-area: footer;
+  background-color: #1c468e;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1%;
+  justify-content: space-around; }
+
+.footer_ul-parques {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  color: white;
+  font-size: small; }
+
+.footer_div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  color: white;
+  width: 300px; }
+
+.footer_legales {
+  text-align: center;
+  color: white;
+  font-size: x-small; }
+
+.footer_list {
+  color: white;
+  text-decoration: none; }
+
+.footer_list:hover {
+  font-weight: bold; }
+
+.footer_redes {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  color: white;
+  font-size: small; }
+
+.footer_rrss {
+  width: 45px;
+  margin: 4px; }
+
+.redes-logos {
+  display: flex;
+  align-items: center; }
+
+.h5-redes {
+  width: 200px;
+  text-align: center;
+  align-items: center; }
+
+@media (max-width: 421px) {
+  .cardpk {
+    width: 95%; }
+  .map-mk {
+    max-width: 90%; }
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: space-evenly; }
+  .footer_div {
+    width: fit-content; }
+  .footer-li-mq {
+    display: none; }
+  .h5-redes {
+    display: none; } }
+
+.carousel-caption {
+  font-weight: bold;
+  font-size: medium; }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.form-input {
+  margin: 5px; }
+
+.form-btn {
+  max-width: 150px; }
+
+.form-h5 {
+  margin: 10px; }

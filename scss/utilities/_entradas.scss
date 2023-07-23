@@ -1,0 +1,75 @@
+.estructura{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.aside-entradas1{
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: medium;
+    width: 15%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.aside-entradas2{
+    margin: 2%;
+    font-size: small;
+    width: 20%;
+}
+
+.img-top{
+    grid-area: top;
+    width: 100%;
+}
+
+.mk-ariel{
+    width: 100%;
+}
+
+.ayuda-entradas{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.entradas_descripcion{
+    width: 65%;
+    margin: 2%;
+}
+
+.compra-descripcion-mk{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+    background-color:rgb(175, 224, 255);
+}
+
+.compra-descripcion-ep{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+    background-color:rgba(131, 14, 81, 0.408);
+}
+
+.compra-descripcion-hs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+    color: white;
+    background-color:rgba(167, 18, 18, 0.87);
+}
+
+.img-compra{
+    height: 200px;
+}
+
+.h6-compra{
+    width: 100px;
+}
+
+.p-compra{
+    width: 200px;
+}

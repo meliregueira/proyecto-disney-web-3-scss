@@ -1,0 +1,59 @@
+.carousel-noticias{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+#carouselExampleDark{
+    margin-top: 1%;
+}
+
+.car-noti{
+    width: 100vw;
+}
+
+.tickets-disney{
+     width: 100vw;
+}
+
+.col-sm-8{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-sm-4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-n{
+    background-color: rgba(230, 230, 230, 0.7);
+    margin-top: 7px;
+    border: dotted 1px;
+    border-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.col-sm{
+    height: 5%;
+}
+
+.imgs-noticias{
+    max-height: 15vw;
+}
+
+.img-noti1{
+    width: 50vw;
+}
+
+.h-noti{
+    font-weight: bold;
+}
