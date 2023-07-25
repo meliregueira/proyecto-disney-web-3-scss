@@ -1,0 +1,28 @@
+.animate_mdw_logo{
+    animation-name: rueda_mdw;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+}
+
+@keyframes rueda_mdw {
+    0%{translate: 0;
+        rotate: 0deg;
+    }
+
+    25%{translate: 0;
+        rotate: 180deg;
+    }
+
+    50%{translate: 0px;
+        rotate: 365deg;
+    }
+
+    75%{translate: 0;
+        rotate: 180deg;
+    }
+
+    100%{translate: 0;
+        rotate: 0deg;
+    }
+
+}
