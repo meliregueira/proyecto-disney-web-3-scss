@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: disney-font;
+}
+
+@font-face {
+    font-family: disney-font;
+    src: url(../fonts/alte_haas_grotesk/AlteHaasGroteskRegular.ttf);
+}
+
+
+.carousel-caption {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-input {
+    margin: 5px;
+}
+
+.form-btn {
+    max-width: 150px;
+}
+
+.form-h5 {
+    margin: 10px;
+}
+
+//index
+
+.grids-index {
+    display: grid;
+    grid-template-areas:
+        "parques parques parques"
+        "entradas entradas entradas"
+        "hoteles planes planes"
+        "noticias noticias mdw"
+    ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto 0.5fr 1fr;
+
+    .div_parques {
+        grid-area: parques;
+        grid-row: 1;
+        width: 100%;
+    }
+
+    .div_entradas {
+        grid-area: entradas;
+        grid-row: 2;
+        width: 100%;
+    }
+
+    .div_hoteles {
+        grid-area: hoteles;
+        align-items: center;
+        display: flex;
+        overflow: hidden;
+    }
+
+    .div_planes {
+        display: flex;
+        grid-area: planes;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .div_noticias {
+        grid-area: noticias;
+        width: 1fr;
+        grid-row: 4;
+    }
+
+    .div_mdw {
+        grid-area: mdw;
+        .card-index{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid gray;
+            border-radius: 15px;
+            padding: 2%;
+        }        
+    }
+
+}
+
+.img-full-vw{
+    width: 100%;
+}
+
+.img-mdw-card{
+ width: 55%;
+}
+
+.img-75{
+
+}
+
+.img-hoteles{
+    width: 34.4vw;
+}
+
+.img-plan{
+    width: 64.4vw;
+}
+
+//INDEX_H1
+
+
+.section_h1{
+    position: absolute;
+    color: white;
+    width: 92%;
+    display: flex;
+    justify-content: center;
+}
+
+.section_h1_f2{
+    position: absolute;
+    color: black;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.section_h1_p2{
+    position: absolute;
+    color: white;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.section_h1:hover{
+    font-weight: bold;
+    color: white;
+}
+
+.section_h1_p2:hover{
+    font-weight: bold;
+    color: white;
+}
+
+.section_h1_f2:hover{
+    font-weight: bold;
+    color: black;
+}

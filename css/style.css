@@ -1,12 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: disney-font; }
-
-@font-face {
-  font-family: disney-font;
-  src: url(../fonts/alte_haas_grotesk/AlteHaasGroteskRegular.ttf); }
-
 .estructura {
   display: flex;
   flex-wrap: nowrap; }
@@ -343,7 +334,13 @@
   background-color: white; }
 
 .logo-mdw-nav {
-  width: 30%; }
+  width: 25%; }
+
+.logo-mdw-nav:hover {
+  width: 24%; }
+
+.nav-link:hover {
+  font-weight: bold; }
 
 .animate_mdw_logo {
   animation-name: rueda_mdw;
@@ -367,6 +364,15 @@
     translate: 0;
     rotate: 0deg; } }
 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: disney-font; }
+
+@font-face {
+  font-family: disney-font;
+  src: url(../fonts/alte_haas_grotesk/AlteHaasGroteskRegular.ttf); }
+
 .carousel-caption {
   font-weight: bold;
   font-size: medium; }
@@ -388,29 +394,32 @@
 .grids-index {
   display: grid;
   grid-template-areas: "parques parques parques" "entradas entradas entradas" "hoteles planes planes" "noticias noticias mdw";
-  width: 100%;
-  align-items: center;
-  justify-content: center; }
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto 0.5fr 1fr; }
   .grids-index .div_parques {
     grid-area: parques;
+    grid-row: 1;
     width: 100%; }
   .grids-index .div_entradas {
     grid-area: entradas;
+    grid-row: 2;
     width: 100%; }
   .grids-index .div_hoteles {
     grid-area: hoteles;
+    align-items: center;
     display: flex;
-    width: 35vw;
-    justify-content: end; }
+    overflow: hidden; }
   .grids-index .div_planes {
+    display: flex;
     grid-area: planes;
-    width: 55vw; }
+    align-items: center;
+    overflow: hidden; }
   .grids-index .div_noticias {
     grid-area: noticias;
-    width: 55vw; }
+    width: 1fr;
+    grid-row: 4; }
   .grids-index .div_mdw {
-    grid-area: mdw;
-    width: 35vw; }
+    grid-area: mdw; }
     .grids-index .div_mdw .card-index {
       display: flex;
       flex-direction: row;
@@ -420,22 +429,17 @@
       border-radius: 15px;
       padding: 2%; }
 
-.img-100 {
+.img-full-vw {
   width: 100%; }
 
 .img-mdw-card {
-  width: 70%; }
-
-.img-75 {
-  width: 30%; }
+  width: 55%; }
 
 .img-hoteles {
-  width: 110%;
-  overflow: hidden; }
+  width: 34.4vw; }
 
 .img-plan {
-  width: 70%;
-  height: 100%; }
+  width: 64.4vw; }
 
 .section_h1 {
   position: absolute;
