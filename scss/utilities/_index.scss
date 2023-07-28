@@ -9,6 +9,10 @@
     src: url(../fonts/alte_haas_grotesk/AlteHaasGroteskRegular.ttf);
 }
 
+@font-face{
+    font-family: Walt-Disney;
+    src: url(../fonts/waltograph/waltograph42.otf);
+}
 
 .carousel-caption {
     font-weight: bold;
@@ -35,122 +39,141 @@
 
 //index
 
-.grids-index {
+.grid-container {
     display: grid;
-    grid-template-areas:
-        "parques parques parques"
-        "entradas entradas entradas"
-        "hoteles planes planes"
-        "noticias noticias mdw"
+    grid-template-areas: 
+    "title title title"
+    "parques parques parques"
+    "entradas entradas entradas"
+    "hoteles hoteles planes"
+    "noticias noticias mdw"
     ;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto 0.5fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 0px;
+  }
+  
+  .grid-item {
+    padding: 0px;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #title {
+    grid-area: title;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #parques {
+    grid-area: parques;
+  }
+  
+  #entradas {
+    grid-area: entradas;
+  }
+  
+  #hoteles {
+    grid-area: hoteles;
+  }
+  
+  #planes {
+    grid-area: planes;
+  }
+  
+  #noticias {
+    grid-area: noticias;
+  }
+  
+  #mdw {
+    grid-area: mdw;
+  }
 
-    .div_parques {
-        grid-area: parques;
-        grid-row: 1;
-        width: 100%;
-    }
+//IMAGENES
 
-    .div_entradas {
-        grid-area: entradas;
-        grid-row: 2;
-        width: 100%;
-    }
-
-    .div_hoteles {
-        grid-area: hoteles;
-        align-items: center;
-        display: flex;
-        overflow: hidden;
-    }
-
-    .div_planes {
-        display: flex;
-        grid-area: planes;
-        align-items: center;
-        overflow: hidden;
-    }
-
-    .div_noticias {
-        grid-area: noticias;
-        width: 1fr;
-        grid-row: 4;
-    }
-
-    .div_mdw {
-        grid-area: mdw;
-        .card-index{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            border: 1px solid gray;
-            border-radius: 15px;
-            padding: 2%;
-        }        
-    }
-
+.img-hote{
+    width: 49vw;
 }
-
-.img-full-vw{
-    width: 100%;
-}
-
-.img-mdw-card{
- width: 55%;
-}
-
-.img-75{
-
-}
-
-.img-hoteles{
-    width: 34.4vw;
-}
-
 .img-plan{
-    width: 64.4vw;
+    width: 49vw;
 }
 
-//INDEX_H1
+.img-entr{
+    width: 98vw;
+}
 
+.img-parc{
+    width: 98vw;
+}
 
-.section_h1{
+.img-mdw{
+    width: 20vw;
+}
+
+//CARD
+
+.card-index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+//TEXTOS-INDEX
+
+h1{
+    font-family: Walt-Disney;
+}
+
+.titulos-index{
     position: absolute;
-    color: white;
-    width: 92%;
+    width: 98vw;
     display: flex;
     justify-content: center;
+    color: white;
+    margin-top: 17%;
+    text-shadow: black 2px 2px 2px;
 }
 
-.section_h1_f2{
+.titulos-index-v2{
     position: absolute;
-    color: black;
-    width: 35%;
+    width: 50vw;
     display: flex;
     justify-content: center;
+    color: white;
+    margin-top: 17%;
+    text-shadow: black 2px 2px 2px;
 }
 
-.section_h1_p2{
+.titulos-index:hover{
     position: absolute;
-    color: white;
-    width: 35%;
+    width: 98vw;
     display: flex;
     justify-content: center;
-}
-
-.section_h1:hover{
-    font-weight: bold;
     color: white;
+    font-weight: bold;
+    margin-top: 17%;
 }
 
-.section_h1_p2:hover{
-    font-weight: bold;
+.titulos-index-v2:hover{
+    position: absolute;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
     color: white;
-}
-
-.section_h1_f2:hover{
+    margin-top: 17%;
     font-weight: bold;
-    color: black;
 }
