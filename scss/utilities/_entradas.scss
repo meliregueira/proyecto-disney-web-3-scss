@@ -1,6 +1,18 @@
 .estructura{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    width: 99vw;
+}
+
+.accordion-button{
+    background-color: rgb(205, 205, 205);
+    width: 100%;
+}
+
+.h1-entradas{
+    width: 99vw;
+    display: flex;
+    justify-content: center;
 }
 
 .aside-entradas1{
@@ -13,7 +25,6 @@
 }
 
 .aside-entradas2{
-    margin: 2%;
     font-size: small;
     width: 20%;
 }
@@ -21,6 +32,10 @@
 .img-top{
     grid-area: top;
     width: 100%;
+}
+
+.img-mb{
+    width: 50%;
 }
 
 .mk-ariel{
@@ -33,37 +48,61 @@
 }
 
 .entradas_descripcion{
-    width: 65%;
-    margin: 2%;
+    width: 60%;
+    margin: 1%;
 }
 
-.compra-descripcion-mk{
+.acordeon-body{
+    border: 1px gray solid;
+    border-radius: 7px;
+    padding: 2%;
+    .h5-concepto{
+        font-weight: bold;
+    }
+    .acordeon-p{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .span-p{
+            font-weight: bold;
+            font-size: larger;
+        }
+        .logo-mk{
+            width: 15%;
+        }
+    }
+}
+
+.compra-descripcion{    
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 3%;
     background-color:rgb(175, 224, 255);
+    padding-left: 1%;
 }
 
-.compra-descripcion-ep{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 3%;
-    background-color:rgba(131, 14, 81, 0.408);
+.compra-epcot{
+    background-color: rgb(219, 219, 219) ;
 }
 
-.compra-descripcion-hs{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 3%;
+.btn-compra-ep{
+    background-color: rgb(151, 151, 151);
     color: white;
-    background-color:rgba(167, 18, 18, 0.87);
+}
+
+.btn-compra-ep:hover{
+    background-color: rgb(126, 126, 126);
+    color: white;
+}
+
+.compra-hs{
+    background-color: rgb(232, 90, 90);
+    color: white;
 }
 
 .img-compra{
-    height: 200px;
+    height: 10vw;
 }
 
 .h6-compra{
@@ -73,3 +112,65 @@
 .p-compra{
     width: 200px;
 }
+
+.card-width{
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+    padding: 1%;
+}
+
+
+
+.grid-container-2{
+    display: grid;
+    grid-template-areas: 
+    "MK EP HS"
+    "AK X3 X5"
+    "X7 X7 X7" ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 2%;
+    max-width: 100%;
+    height: 70vw;
+    margin: 3%;
+
+    .grid-item-2{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: gray;
+        width: 18vw;
+        height: 18vw;
+
+        #MK-compra{
+            grid-area: MK;
+        }
+        
+        #EP-compra{
+            grid-area: EP;
+        }
+        
+        #HS-compra{
+            grid-area: HS;
+        }
+        
+        #AK-compra{
+            grid-area: AK;
+        }
+        
+        #pack-3{
+            grid-area: X3;
+        }
+        
+        #pack-5{
+            grid-area: X5;
+        }
+        
+        #pack-7{
+            grid-area: X7;
+        }
+    }}
+
+.h5-ad{
+    text-align: center;
+}
+

@@ -1,6 +1,16 @@
 .estructura {
   display: flex;
-  flex-wrap: nowrap; }
+  flex-wrap: wrap;
+  width: 99vw; }
+
+.accordion-button {
+  background-color: #cdcdcd;
+  width: 100%; }
+
+.h1-entradas {
+  width: 99vw;
+  display: flex;
+  justify-content: center; }
 
 .aside-entradas1 {
   margin-left: 2%;
@@ -11,13 +21,15 @@
   font-weight: bold; }
 
 .aside-entradas2 {
-  margin: 2%;
   font-size: small;
   width: 20%; }
 
 .img-top {
   grid-area: top;
   width: 100%; }
+
+.img-mb {
+  width: 50%; }
 
 .mk-ariel {
   width: 100%; }
@@ -27,39 +39,94 @@
   font-weight: bold; }
 
 .entradas_descripcion {
-  width: 65%;
-  margin: 2%; }
+  width: 60%;
+  margin: 1%; }
 
-.compra-descripcion-mk {
+.acordeon-body {
+  border: 1px gray solid;
+  border-radius: 7px;
+  padding: 2%; }
+  .acordeon-body .h5-concepto {
+    font-weight: bold; }
+  .acordeon-body .acordeon-p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .acordeon-body .acordeon-p .span-p {
+      font-weight: bold;
+      font-size: larger; }
+    .acordeon-body .acordeon-p .logo-mk {
+      width: 15%; }
+
+.compra-descripcion {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 3%;
-  background-color: #afe0ff; }
+  background-color: #afe0ff;
+  padding-left: 1%; }
 
-.compra-descripcion-ep {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 3%;
-  background-color: rgba(131, 14, 81, 0.408); }
+.compra-epcot {
+  background-color: #dbdbdb; }
 
-.compra-descripcion-hs {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 3%;
-  color: white;
-  background-color: rgba(167, 18, 18, 0.87); }
+.btn-compra-ep {
+  background-color: #979797;
+  color: white; }
+
+.btn-compra-ep:hover {
+  background-color: #7e7e7e;
+  color: white; }
+
+.compra-hs {
+  background-color: #e85a5a;
+  color: white; }
 
 .img-compra {
-  height: 200px; }
+  height: 10vw; }
 
 .h6-compra {
   width: 100px; }
 
 .p-compra {
   width: 200px; }
+
+.card-width {
+  margin-left: 2% !important;
+  margin-right: 2% !important;
+  padding: 1%; }
+
+.grid-container-2 {
+  display: grid;
+  grid-template-areas: "MK EP HS" "AK X3 X5" "X7 X7 X7";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 2%;
+  max-width: 100%;
+  height: 70vw;
+  margin: 3%; }
+  .grid-container-2 .grid-item-2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gray;
+    width: 18vw;
+    height: 18vw; }
+    .grid-container-2 .grid-item-2 #MK-compra {
+      grid-area: MK; }
+    .grid-container-2 .grid-item-2 #EP-compra {
+      grid-area: EP; }
+    .grid-container-2 .grid-item-2 #HS-compra {
+      grid-area: HS; }
+    .grid-container-2 .grid-item-2 #AK-compra {
+      grid-area: AK; }
+    .grid-container-2 .grid-item-2 #pack-3 {
+      grid-area: X3; }
+    .grid-container-2 .grid-item-2 #pack-5 {
+      grid-area: X5; }
+    .grid-container-2 .grid-item-2 #pack-7 {
+      grid-area: X7; }
+
+.h5-ad {
+  text-align: center; }
 
 .carousel-noticias {
   margin-top: 1%;
@@ -319,7 +386,16 @@
   .card-text-hide {
     display: none; }
   .img-mdw-card {
-    display: none; } }
+    display: none; }
+  .p-compra {
+    display: none; }
+  .img-mb {
+    display: none; }
+  .h5-exp-disney {
+    font-size: x-small; } }
+
+.container-fluid {
+  flex-wrap: nowrap !important; }
 
 .logo-white {
   width: 20%; }
@@ -363,6 +439,14 @@
   100% {
     translate: 0;
     rotate: 0deg; } }
+
+@keyframes rotatein {
+  0% {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(180deg); }
+  100% {
+    transform: rotate(0deg); } }
 
 * {
   margin: 0;
@@ -501,3 +585,6 @@ h1 {
   color: white;
   margin-top: 17%;
   font-weight: bold; }
+
+.rotatein:hover {
+  animation: rotatein 2s; }

@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"
-    content="Comprá tus entradas a los parques temáticos de Disney! Conocé los distintos packs por días, ofertas y precios.">
-  <meta name="keywords" content="Disney, Parques, Entradas, Precios, tickets, Comprar, Días, Pagos">
+        content="Comprá tus entradas a los parques temáticos de Disney! Conocé los distintos packs por días, ofertas y precios.">
+    <meta name="keywords" content="Disney, Parques, Entradas, Precios, tickets, Comprar, Días, Pagos">
     <title>Entradas | Walt Disney World</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../resources/Logos/dBlanca2.png" type="image/x-icon">
 </head>
@@ -44,7 +44,9 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="../pages/parques.html">Parques</a></li>
-                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li><a class="dropdown-item" href="#">Magic Kingdom</a></li>
                                 <li><a class="dropdown-item" href="#">Epcot</a></li>
                                 <li><a class="dropdown-item" href="#">Hollywood Studios</a></li>
@@ -55,7 +57,8 @@
                             <a class="nav-link active" href="../pages/hoteles.html">Hoteles</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="../pages/my-disney-world.html"><img class="logo-mdw-nav" src="../resources/Logos/my-disney-experience-logo2w.svg" alt="mdw"></a>
+                            <a class="nav-link active" href="../pages/my-disney-world.html"><img class="logo-mdw-nav"
+                                    src="../resources/Logos/my-disney-experience-logo2w.svg" alt="mdw"></a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -65,43 +68,59 @@
                 </div>
             </div>
         </nav>
+
         <section class="top">
             <img class="img-top" src="../resources/Imagenes completas/conseguí-tus-entradas.png" alt="entradas">
         </section>
         <div class="estructura">
+            <h1 class="h1-entradas">Seleccioná tus tickets</h1>
             <aside class="aside-entradas1">
                 <div class="entradas_precios">
-                    <h5>Experiencias Disney</h5>
+                    <h5 class="h5-exp-disney">Experiencias Disney</h5>
                     <p>Conocé a Ariel en Magic Kingdom!</p>
                     <img class="mk-ariel" src="../resources/Imagenes completas/ariel-disney.jpg" alt="ariel-mk">
                 </div>
             </aside>
             <div class="entradas_descripcion">
-                <h5>Seleccioná tus tickets</h5>
-                <section class="compra-descripcion-mk">
-                    <h6 class="h6-compra">Magic Kingdom</h6>
-                    <p class="p-compra">Entra a una Tierra donde reina la Fantasía.</p>
-                    <br><button type="button" class="btn btn-info btn-compra">Comprar</button>
-                    <img class="img-compra" src="../resources/Imagenes completas/magicKingdom2.jpg" alt="entradas">
-                </section>
-                <section class="compra-descripcion-ep">
-                    <h6 class="h6-compra">Epcot</h6>
-                    <p class="p-compra">Celebra las historias que unen a la gente y culturas de todo el mundo.</p>
-                    <br><button type="button" class="btn btn-danger btn-compra">Comprar</button>
-                    <img class="img-compra" src="../resources/Imagenes completas/magicKingdom2.jpg" alt="entradas">
-                </section>
-                <section class="compra-descripcion-hs">
-                    <h6 class="h6-compra">Hollywood Studios</h6>
-                    <p class="p-compra">Vive tu Aventura Definitiva.</p>
-                    <br><button type="button" class="btn btn-danger btn-compra">Comprar</button>
-                    <img class="img-compra" src="../resources/Imagenes completas/magicKingdom2.jpg" alt="entradas">
-                </section>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Tu carrito
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="acordeon-body">
+                                    <h5 class="h5-concepto">Concepto</h5>
+                                    <p class="acordeon-p">Cantidad 
+                                    <span class="span-p">$1.000</span>
+                                    <img class="logo-mk" src="../resources/Logos/Magic-Kingdom-logo.png" alt="magic-kingdom-logo"></p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+                <div class="grid-container-2">
+                    <div class="grid-item-2" id="MK-compra">1<img src="" alt=""></div>
+                    <div class="grid-item-2" id="EP-compra">2</div>
+                    <div class="grid-item-2" id="HS-compra">3</div>
+                    <div class="grid-item-2" id="AK-compra">4</div>
+                    <div class="grid-item-2" id="pack-3">5</div>
+                    <div class="grid-item-2" id="pack-5">6</div>
+                    <div class="grid-item-2" id="pack-7">7</div>
+                </div>
             </div>
             <aside class="aside-entradas2">
                 <div class="entradas_fotos">
-                    <h5>Agregá a tu carrito</h5>
-                    <div class="card" style="width: 12rem">
-                        <img src="../resources/Imagenes completas/MagicBand.jpg" class="card-img-top" alt="...">
+                    <h5 class="h5-ad">Agregá a tu carrito</h5>
+                    <div class="card card-width">
+                        <img class="img-mb" src="../resources/Imagenes completas/Magic-Band-img.png"
+                            class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Magic Bands</h5>
                             <p class="card-text">Hacé mas divertida tu visita al parque con tu magic band!</p>
@@ -120,64 +139,71 @@
                 </div>
             </aside>
         </div>
-        
+
         <footer class="footer">
             <div class="footer_div">
-              <ul class="footer_ul-parques">
-                <a class="footer_list" href="../pages/parques.html">
-                  <h5>Parques</h5>
-                </a>
-                <li class="footer-li-mq"><a class="footer_list" href="../pages/parques.html">Magic Kingdom</a></li>
-                <li class="footer-li-mq"><a class="footer_list" href="../pages/parques.html">Epcot</a></li>
-                <li class="footer-li-mq"><a class="footer_list" href="../pages/parques.html">Hollywood Studios</a></li>
-                <li class="footer-li-mq"><a class="footer_list" href="../pages/parques.html">Animal Kingdom</a></li>
-              </ul>
+                <ul class="footer_ul-parques">
+                    <a class="footer_list" href="../pages/parques.html">
+                        <h5>Parques</h5>
+                    </a>
+                    <li class="footer-li-mq"><a class="footer_list" href="../pages/parques.html">Magic Kingdom</a></li>
+                    <li class="footer-li-mq"><a class="footer_list" href="../pages/parques.html">Epcot</a></li>
+                    <li class="footer-li-mq"><a class="footer_list" href="../pages/parques.html">Hollywood Studios</a>
+                    </li>
+                    <li class="footer-li-mq"><a class="footer_list" href="../pages/parques.html">Animal Kingdom</a></li>
+                </ul>
             </div>
             <div class="footer_div">
-              <ul class="footer_ul-parques">
-                <a class="footer_list" href="../pages/entradas.html">
-                  <h5>Visitá los parques</h5>
-                </a>
-                <li class="footer-li-mq"><a class="footer_list" href="../pages/entradas.html">Comprá tus entradas</a></li>
-                <li class="footer-li-mq"><a class="footer_list" href="../pages/planes.html">Planes de comida</a></li>
-                <li class="footer-li-mq"><a class="footer_list" href="../pages/parques.html">Hoteles</a></li>
-              </ul>
+                <ul class="footer_ul-parques">
+                    <a class="footer_list" href="../pages/entradas.html">
+                        <h5>Visitá los parques</h5>
+                    </a>
+                    <li class="footer-li-mq"><a class="footer_list" href="../pages/entradas.html">Comprá tus
+                            entradas</a></li>
+                    <li class="footer-li-mq"><a class="footer_list" href="../pages/planes.html">Planes de comida</a>
+                    </li>
+                    <li class="footer-li-mq"><a class="footer_list" href="../pages/parques.html">Hoteles</a></li>
+                </ul>
             </div>
             <div class="footer_div">
-              <ul class="footer_ul-parques">
-                <a class="footer_list" href="../pages/noticias.html">
-                  <h5>Noticias</h5>
-                </a>
-              </ul>
+                <ul class="footer_ul-parques">
+                    <a class="footer_list" href="../pages/noticias.html">
+                        <h5>Noticias</h5>
+                    </a>
+                </ul>
             </div>
             <div class="footer_div">
-              <ul class="footer_ul-parques">
-                <a class="footer_list" href="../pages/my-disney-world.html">
-                  <h5>Cuenta</h5>
-                </a>
-                <li class="footer-li-mq"><a class="footer_list" href="../pages/my-disney-world.html">Creá tu cuenta</a></li>
-                <li class="footer-li-mq"><a class="footer_list" href="../pages/my-disney-world.html">Ingresá a mydisneyworld</a></li>
-              </ul>
+                <ul class="footer_ul-parques">
+                    <a class="footer_list" href="../pages/my-disney-world.html">
+                        <h5>Cuenta</h5>
+                    </a>
+                    <li class="footer-li-mq"><a class="footer_list" href="../pages/my-disney-world.html">Creá tu
+                            cuenta</a></li>
+                    <li class="footer-li-mq"><a class="footer_list" href="../pages/my-disney-world.html">Ingresá a
+                            mydisneyworld</a></li>
+                </ul>
             </div>
             <div class="footer_div">
-              <h5 class="h5-redes">Disney Redes</h5>
-              <div class="redes-logos">
-                <div><a href="https://www.instagram.com/disney/"><img class="footer_rrss"
-                      src="../resources/Logos/instagram-logo.png" alt="ig-logo"></a></div>
-                <div><a href="https://www.facebook.com/Disney/?locale=es_LA"><img class="footer_rrss"
-                      src="../resources/Logos/facebook-logo.png" alt="fb-logo"></a></div>
-                <div><a href="https://www.disneyplus.com/es-ar"><img class="footer_rrss"
-                      src="../resources/Logos/disney+-logo.png" alt="d+-logo"></a></div>
-                <div><a href="https://www.disneylatino.com/"><img class="footer_rrss" src="../resources/Logos/disney-la.png"
-                      alt="dla-logo"></a></div>
-              </div>
+                <h5 class="h5-redes">Disney Redes</h5>
+                <div class="redes-logos">
+                    <div><a href="https://www.instagram.com/disney/"><img class="footer_rrss"
+                                src="../resources/Logos/instagram-logo.png" alt="ig-logo"></a></div>
+                    <div><a href="https://www.facebook.com/Disney/?locale=es_LA"><img class="footer_rrss"
+                                src="../resources/Logos/facebook-logo.png" alt="fb-logo"></a></div>
+                    <div><a href="https://www.disneyplus.com/es-ar"><img class="footer_rrss"
+                                src="../resources/Logos/disney+-logo.png" alt="d+-logo"></a></div>
+                    <div><a href="https://www.disneylatino.com/"><img class="footer_rrss"
+                                src="../resources/Logos/disney-la.png" alt="dla-logo"></a></div>
+                </div>
             </div>
             <div class="footer_legales">
-              <p>© Disney, Todos los Derechos Reservados. Disney Vacations, LLC PO Box 10250, Lake Buena Vista, FL 32830-0250
-                | 81-2564985. ContactUs@DisneyVacationsLLC.com - (011) 5354-8119
-                Se aplicarán cargos por llamadas internacionales cuando llames a Disney desde fuera de los Estados Unidos.</p>
+                <p>© Disney, Todos los Derechos Reservados. Disney Vacations, LLC PO Box 10250, Lake Buena Vista, FL
+                    32830-0250
+                    | 81-2564985. ContactUs@DisneyVacationsLLC.com - (011) 5354-8119
+                    Se aplicarán cargos por llamadas internacionales cuando llames a Disney desde fuera de los Estados
+                    Unidos.</p>
             </div>
-          </footer>
+        </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
