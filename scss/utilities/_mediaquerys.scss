@@ -82,4 +82,36 @@
     .text-body-secondary{
         display: none;
     }
+
+    //Restaurantes
+
+    .rest-map{
+        display: none;
+    }
+
+    .list-rest-item{
+        width: 70vw;
+        padding: 2%;
+    }
+
+    hr{
+        width: 50%;
+    }
+
+    .title-rest{
+        font-size: small;
+    }
+
+    .p-descr-rest{
+        display: none;
+    }
+
+    .btn-mq-rest{
+        font-size: smaller;
+        width: 30vw;
+    }
+
+    .rest-descr{
+        width: 50vw;
+    }
 }

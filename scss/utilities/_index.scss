@@ -4,6 +4,11 @@
     font-family: disney-font;
 }
 
+ul{
+    margin: 0;
+    padding: 0;
+}
+
 @font-face {
     font-family: disney-font;
     src: url(../fonts/alte_haas_grotesk/AlteHaasGroteskRegular.ttf);
@@ -12,6 +17,16 @@
 @font-face{
     font-family: Walt-Disney;
     src: url(../fonts/waltograph/waltograph42.otf);
+}
+
+@font-face{
+    font-family: magic-kingdom;
+    src: url(../fonts/enchanted_land/Enchanted_Land.otf);
+}
+
+@font-face{
+    font-family: animal-kingdom;
+    src:url(../fonts/rodfat/Rodfat.ttf);
 }
 
 .carousel-caption {

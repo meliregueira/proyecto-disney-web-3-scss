@@ -1,0 +1,115 @@
+.card-plan-mk{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 2%;
+    border: solid rgb(72, 86, 197) 1px;
+    border-radius: 10px;
+    padding: 1%;
+    margin: 1%;
+    background-color: $magick;
+}
+
+.card-plan-ak{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 2%;
+    border: solid rgb(77, 135, 85) 1px;
+    border-radius: 10px;
+    padding: 1%;
+    margin: 1%;
+    background-color: $animalk;
+}
+
+.h4-planes{
+ font-family: magic-kingdom;
+ font-size: 5vw;
+ color: $magicktitle;
+ text-align: center;
+}
+
+.h4-planes-ak{
+    font-family: animal-kingdom;
+    font-size: 3vw;
+    color: $animalktitle;
+    text-align: center;
+}
+
+.rest-mk{
+    width: 20%;
+}
+
+.btn-menu-mk{
+    width: 9vw;
+    background-color: $btncolorlgblue;
+    border-radius: 9px;
+    border: solid white 1px;
+    color: white;
+}
+
+.btn-menu-ak{
+    width: 9vw;
+    background-color: $animalktitle;
+    border-radius: 9px;
+    border: solid white 1px;
+    color: white;
+}
+
+.btn-menu-mk:hover{
+    font-weight: bold;
+    background-color: $btncolorlgbluehover;
+}
+
+.btn-menu-ak:hover{
+    font-weight: bold;
+    background-color: rgb(37, 96, 37);
+}
+
+.rest-descr{
+    display: flex;
+    width: 30vw;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-rest{
+    font-weight: bold;
+}
+
+.icn-rest{
+    width: 1vw;
+}
+
+.list-rest-item{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-top: 2vw;
+    justify-content: space-between;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+hr{
+    width: 90vw;
+}
+
+.ul-rest-list{
+    border: dotted $magicktitle 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.p-descr-rest{
+    width: 40vw;
+}
+
+.rest-map{
+    width: 20vw;
+}

@@ -66,17 +66,6 @@
   background-color: #afe0ff;
   padding-left: 1%; }
 
-.compra-epcot {
-  background-color: #dbdbdb; }
-
-.btn-compra-ep {
-  background-color: #979797;
-  color: white; }
-
-.btn-compra-ep:hover {
-  background-color: #7e7e7e;
-  color: white; }
-
 .compra-hs {
   background-color: #e85a5a;
   color: white; }
@@ -403,54 +392,6 @@
   text-align: center;
   align-items: center; }
 
-@media (max-width: 421px) {
-  .cardpk {
-    width: 95%; }
-  .map-mk {
-    max-width: 90%; }
-  .footer {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-    justify-content: space-evenly; }
-  .footer_div {
-    width: fit-content; }
-  .footer-li-mq {
-    display: none; }
-  .h5-redes {
-    display: none; }
-  .card-text-hide {
-    display: none; }
-  .img-mdw-card {
-    display: none; }
-  .p-compra {
-    display: none; }
-  .h5-exp-disney {
-    font-size: x-small; }
-  .text-compra-p {
-    display: none;
-    padding-top: 14vw; }
-  .btn-carrito {
-    font-size: x-small; }
-  .text-compra-p {
-    display: none; } }
-
-@media (max-width: 1115px) {
-  .text-compra {
-    font-size: small;
-    padding-top: 10vw; }
-  .img-mb {
-    display: none; }
-  .text-compra-p {
-    font-size: smaller;
-    padding-top: 14vw; }
-  .btn-carrito {
-    font-size: smaller; }
-  .btn-aside {
-    font-size: smaller; }
-  .text-body-secondary {
-    display: none; } }
-
 .container-fluid {
   flex-wrap: nowrap !important; }
 
@@ -510,6 +451,10 @@
   padding: 0;
   font-family: disney-font; }
 
+ul {
+  margin: 0;
+  padding: 0; }
+
 @font-face {
   font-family: disney-font;
   src: url(../fonts/alte_haas_grotesk/AlteHaasGroteskRegular.ttf); }
@@ -517,6 +462,14 @@
 @font-face {
   font-family: Walt-Disney;
   src: url(../fonts/waltograph/waltograph42.otf); }
+
+@font-face {
+  font-family: magic-kingdom;
+  src: url(../fonts/enchanted_land/Enchanted_Land.otf); }
+
+@font-face {
+  font-family: animal-kingdom;
+  src: url(../fonts/rodfat/Rodfat.ttf); }
 
 .carousel-caption {
   font-weight: bold;
@@ -645,3 +598,165 @@ h1 {
 
 .rotatein:hover {
   animation: rotatein 2s; }
+
+.card-plan-mk {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 2%;
+  border: solid #4856c5 1px;
+  border-radius: 10px;
+  padding: 1%;
+  margin: 1%;
+  background-color: #c1dcfe; }
+
+.card-plan-ak {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 2%;
+  border: solid #4d8755 1px;
+  border-radius: 10px;
+  padding: 1%;
+  margin: 1%;
+  background-color: #86ba86; }
+
+.h4-planes {
+  font-family: magic-kingdom;
+  font-size: 5vw;
+  color: #117db4;
+  text-align: center; }
+
+.h4-planes-ak {
+  font-family: animal-kingdom;
+  font-size: 3vw;
+  color: #487d48;
+  text-align: center; }
+
+.rest-mk {
+  width: 20%; }
+
+.btn-menu-mk {
+  width: 9vw;
+  background-color: #117db4;
+  border-radius: 9px;
+  border: solid white 1px;
+  color: white; }
+
+.btn-menu-ak {
+  width: 9vw;
+  background-color: #487d48;
+  border-radius: 9px;
+  border: solid white 1px;
+  color: white; }
+
+.btn-menu-mk:hover {
+  font-weight: bold;
+  background-color: #0d6895; }
+
+.btn-menu-ak:hover {
+  font-weight: bold;
+  background-color: #256025; }
+
+.rest-descr {
+  display: flex;
+  width: 30vw;
+  flex-direction: column;
+  justify-content: center; }
+
+.title-rest {
+  font-weight: bold; }
+
+.icn-rest {
+  width: 1vw; }
+
+.list-rest-item {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-top: 2vw;
+  justify-content: space-between;
+  padding: 1%;
+  border-radius: 5px; }
+
+hr {
+  width: 90vw; }
+
+.ul-rest-list {
+  border: dotted #117db4 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.p-descr-rest {
+  width: 40vw; }
+
+.rest-map {
+  width: 20vw; }
+
+@media (max-width: 421px) {
+  .cardpk {
+    width: 95%; }
+  .map-mk {
+    max-width: 90%; }
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: space-evenly; }
+  .footer_div {
+    width: fit-content; }
+  .footer-li-mq {
+    display: none; }
+  .h5-redes {
+    display: none; }
+  .card-text-hide {
+    display: none; }
+  .img-mdw-card {
+    display: none; }
+  .p-compra {
+    display: none; }
+  .h5-exp-disney {
+    font-size: x-small; }
+  .text-compra-p {
+    display: none;
+    padding-top: 14vw; }
+  .btn-carrito {
+    font-size: x-small; }
+  .text-compra-p {
+    display: none; } }
+
+@media (max-width: 1115px) {
+  .text-compra {
+    font-size: small;
+    padding-top: 10vw; }
+  .img-mb {
+    display: none; }
+  .text-compra-p {
+    font-size: smaller;
+    padding-top: 14vw; }
+  .btn-carrito {
+    font-size: smaller; }
+  .btn-aside {
+    font-size: smaller; }
+  .text-body-secondary {
+    display: none; }
+  .rest-map {
+    display: none; }
+  .list-rest-item {
+    width: 70vw;
+    padding: 2%; }
+  hr {
+    width: 50%; }
+  .title-rest {
+    font-size: small; }
+  .p-descr-rest {
+    display: none; }
+  .btn-mq-rest {
+    font-size: smaller;
+    width: 30vw; }
+  .rest-descr {
+    width: 50vw; } }
