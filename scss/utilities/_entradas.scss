@@ -119,30 +119,66 @@
     padding: 1%;
 }
 
+.icono-carr{
+    width: 9%;
+}
 
+.btn-carrito{
+    width: 11vw;
+    height: 2vw;
+    background-color: rgb(3, 3, 204);
+    color: white;
+    border: solid white 1px;
+    border-radius: 9px;
+}
+
+.btn-carrito:hover{
+    text-decoration: underline 1px;
+}
+
+.text-compra{
+    position: absolute;
+    max-width: 18vw;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 15vw;
+    text-shadow: black 2px 3px 2px;
+}
+
+.text-compra-p{
+    position: absolute;
+    padding-top: 16.2vw;
+    width: 18vw;
+    color: white;
+    font-size: medium;
+    text-align: center;
+    text-shadow: black 2px 2px 2px;
+}
 
 .grid-container-2{
     display: grid;
     grid-template-areas: 
     "MK EP HS"
-    "AK X3 X5"
-    "X7 X7 X7" ;
+    "AK X3 X5" ;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     gap: 2%;
     max-width: 100%;
-    height: 70vw;
+    height: 45vw;
     margin: 3%;
 
     .grid-item-2{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         background-color: gray;
         width: 18vw;
         height: 18vw;
 
         #MK-compra{
             grid-area: MK;
+            width: 18%;
         }
         
         #EP-compra{
@@ -165,12 +201,13 @@
             grid-area: X5;
         }
         
-        #pack-7{
-            grid-area: X7;
-        }
     }}
 
 .h5-ad{
     text-align: center;
 }
 
+.img-grid{
+    width: 18vw;
+    height: 18vw;
+}

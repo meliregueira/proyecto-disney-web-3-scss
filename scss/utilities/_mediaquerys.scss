@@ -38,11 +38,48 @@
         display: none;
     }
 
+    .h5-exp-disney{
+        font-size: x-small;
+    }
+
+    .text-compra-p{
+        display: none;
+        padding-top: 14vw;
+    }
+
+    .btn-carrito{
+        font-size: x-small;
+    }
+
+    .text-compra-p{
+        display: none;
+    }
+}
+
+@media (max-width: 1115px){
+    .text-compra{
+        font-size: small;
+        padding-top: 10vw;
+    }
+
     .img-mb{
         display: none;
     }
 
-    .h5-exp-disney{
-        font-size: x-small;
+    .text-compra-p{
+        font-size: smaller;
+        padding-top: 14vw;
+    }
+
+    .btn-carrito{
+        font-size: smaller;
+    }
+
+    .btn-aside{
+        font-size: smaller;
+    }
+
+    .text-body-secondary{
+        display: none;
     }
 }
