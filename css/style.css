@@ -246,34 +246,42 @@
   align-items: center;
   justify-content: center; }
 
+.mi-cuenta {
+  padding: 3%;
+  margin: 2%;
+  border: 1px dotted gray;
+  background-color: #ebebeb; }
+
+.img-top-htl {
+  width: 100%; }
+
 .div-hoteles {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  width: 100vw; }
-
-.card {
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-left: 5%;
-  margin-top: 1%;
-  margin-right: 5%; }
+  justify-content: center; }
 
 .h2-hoteles {
+  text-align: center; }
+
+.card-hoteles {
   display: flex;
+  width: 90vw;
+  margin-left: 5vw;
+  margin-bottom: 3vw; }
+
+.card-title-htl {
+  padding-top: 2vw; }
+
+.card-header {
+  background-color: #c1e1fa; }
+
+.img-htl-card {
+  width: 50%; }
+
+.hr-htl {
+  width: 95%;
   justify-content: center;
-  margin-top: 2%; }
-
-.a-card {
-  color: black;
-  text-decoration: none; }
-
-.a-card:hover {
-  font-weight: bold; }
-
-.img-card-hoteles {
-  width: 20vw; }
+  margin: 2%; }
 
 .div-parques {
   display: flex;

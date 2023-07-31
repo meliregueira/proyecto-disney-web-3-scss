@@ -1,35 +1,38 @@
-.div-hoteles{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100vw;
+.img-top-htl{
+    width: 100%;
 }
 
-.card{
-    flex-direction: row;
+.div-hoteles{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-left: 5%;
-    margin-top: 1%;
-    margin-right: 5%;
-    
 }
 
 .h2-hoteles{
+    text-align: center;
+}
+
+.card-hoteles{
     display: flex;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-bottom: 3vw;  
+}
+
+.card-title-htl{
+    padding-top: 2vw;
+}
+
+.card-header{
+    background-color: rgb(193, 225, 250);
+}
+
+.img-htl-card{
+    width: 50%;
+}
+
+.hr-htl{
+    width: 95%;
     justify-content: center;
-    margin-top: 2%;
-}
-
-.a-card{
-    color: black;
-    text-decoration: none;
-}
-
-.a-card:hover{
-    font-weight: bold;
-}
-
-.img-card-hoteles{
-    width: 20vw;
+    margin: 2%;
 }
