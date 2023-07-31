@@ -283,66 +283,82 @@
   justify-content: center;
   margin: 2%; }
 
-.div-parques {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-
-.img-mk {
-  width: 100%; }
-
-.mk-pk {
-  max-width: 25%; }
-
-.map-mk {
-  padding: 1%; }
-
-.cardpk {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 1%;
-  padding: 1%;
-  justify-content: space-between;
-  width: 70%;
-  border-radius: 20px;
-  color: white; }
-
-.pkmk {
-  background-color: rgba(76, 193, 201, 0.723); }
-
 .top-banner {
   display: flex;
+  flex-direction: column;
   width: 100%;
-  flex-wrap: wrap;
-  justify-content: center; }
+  align-items: center; }
+
+.img-mk-htl {
+  width: 100%; }
 
 .h1-mk {
   margin-top: 2%; }
 
-.btn-pk-tk {
-  border: solid white;
-  border-radius: 5px;
-  background-color: transparent;
-  color: white;
-  padding: 10px;
-  font-size: large;
+.parks-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.parks-mk-h4 {
+  font-family: magic-kingdom;
+  text-align: center;
+  color: #5583c8;
+  font-size: 5vw; }
+
+.h5-htl {
+  text-align: center;
+  margin: 2%;
   font-weight: bold; }
 
-.btn-pk-tk:hover {
-  border: solid white;
-  border-radius: 5px;
-  background-color: transparent;
-  color: white;
-  padding: 10px;
+.car-width {
+  width: 60vw; }
+
+.img-card-park {
+  width: 40vw; }
+
+.card-width {
+  width: 80vw;
+  padding: 2vw; }
+
+.card-experiencias {
+  display: flex;
+  align-items: center;
+  padding: 2vw;
+  background-color: #5583c8;
+  border-radius: 10px;
+  color: white; }
+
+.title-experience {
+  font-weight: bold;
+  color: white; }
+
+.p-card-park {
   font-size: larger;
+  padding: 2vw;
+  margin: 1vw;
+  border: dotted white 1px; }
+
+.a-parks {
+  color: white; }
+
+.a-parks:hover {
+  color: white;
   font-weight: bold; }
 
-.h1-ak {
-  margin-top: 2%; }
+.parks-ak-h4 {
+  font-family: animal-kingdom;
+  text-align: center;
+  font-size: 3vw;
+  color: #417e41; }
 
-.pkak {
-  background-color: rgba(48, 134, 81, 0.723); }
+.card-experiencias-ak {
+  display: flex;
+  align-items: center;
+  padding: 2vw;
+  background-color: #527849;
+  border-radius: 10px;
+  color: white; }
 
 .footer {
   grid-area: footer;
@@ -767,4 +783,6 @@ hr {
     font-size: smaller;
     width: 30vw; }
   .rest-descr {
-    width: 50vw; } }
+    width: 50vw; }
+  .img-card-park {
+    display: none; } }
