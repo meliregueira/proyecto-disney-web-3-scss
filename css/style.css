@@ -624,6 +624,9 @@ h1 {
 .rotatein:hover {
   animation: rotatein 2s; }
 
+.ix-text-shadow {
+  text-shadow: black 2px 2px 2px; }
+
 .card-plan-mk {
   display: flex;
   flex-wrap: wrap;
