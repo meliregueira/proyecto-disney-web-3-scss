@@ -4,6 +4,12 @@
     animation-duration: 7s;
 }
 
+.logo-mdw-nav:hover{
+    animation-name: rueda_mdw;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+}
+
 @keyframes rueda_mdw {
     0% {
         translate: 0;

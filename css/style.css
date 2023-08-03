@@ -433,15 +433,20 @@
   background-color: white; }
 
 .logo-mdw-nav {
-  width: 25%; }
+  width: 1.9vw; }
 
 .logo-mdw-nav:hover {
-  width: 24%; }
+  width: 1.8vw; }
 
 .nav-link:hover {
   font-weight: bold; }
 
 .animate_mdw_logo {
+  animation-name: rueda_mdw;
+  animation-iteration-count: infinite;
+  animation-duration: 7s; }
+
+.logo-mdw-nav:hover {
   animation-name: rueda_mdw;
   animation-iteration-count: infinite;
   animation-duration: 7s; }
